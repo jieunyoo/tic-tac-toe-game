@@ -3,6 +3,20 @@ body {
   margin: 20px;
 }
 
+h1 {
+	font-weight: bold;
+	font-size:5rem;
+}
+
+h2 {
+	font-size:2rem;
+	color:gray;
+}
+.container {
+	padding:50px 50px;
+	text-align:center;
+}
+
 .board-style {
 	border: 4px solid blue;
 	borderRadius: 10px;
@@ -14,6 +28,7 @@ body {
 }
 
 .game-style {
+	padding-top:50px;
 	width:200px;
 	margin: 20px auto;
 };
