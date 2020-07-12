@@ -73,8 +73,12 @@ h2 {
 
 button.square[data-pro="X"] {
   color: black;
+  font-weight:bold;
+  font-size:3rem;
 }
 
 button.square[data-pro="O"] {
   color: red;
+  font-weight:bold;
+  font-size:3rem;
 }
