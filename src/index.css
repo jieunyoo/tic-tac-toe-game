@@ -41,3 +41,11 @@ h2 {
 	outline: none;
 
 }
+
+button.square[data-pro="X"] {
+  color: black;
+}
+
+button.square[data-pro="O"] {
+  color: red;
+}
