@@ -82,3 +82,9 @@ button.square[data-pro="O"] {
   font-weight:bold;
   font-size:3rem;
 }
+
+.container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+

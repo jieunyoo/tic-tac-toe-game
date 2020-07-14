@@ -29,6 +29,7 @@ const Game = () => {
     const renderMoves = () => (
         history.map((_step, move) => {
             const destination = move ? `Go to move#${move}` : 'Go to start';
+
             return (
                 <ul key={move}>
                     <button class="historybutton" onClick={() => jumpTo(move)}>{destination}</button>
@@ -41,7 +42,10 @@ const Game = () => {
         <>	
             <Board squares={history[stepNumber]} onClick={handleClick} />
                 <p><strong>{winner ? 'Winner: ' + winner : 'Next Player: ' + (xIsNext ? 'X' : 'O')}</strong></p>
-                {renderMoves()}
+
+				<div class="container2">
+					{renderMoves()} 
+				</div>
         </>
     )
 }
